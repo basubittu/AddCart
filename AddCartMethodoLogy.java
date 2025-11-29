@@ -25,6 +25,7 @@ public class AddCartMethodoLogy {
 	    	if(data.contains(vegFormat[0].trim()))
 	    	{
 	    		WebElement addCartButton=product.findElement(By.xpath(".//div[@class='product-action']/button"));
+				//Added for cart add
 	    		addCartButton.click();
 	    	}
 	    }
