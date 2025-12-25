@@ -1,0 +1,36 @@
+<html>
+
+<head>
+    <title> Hello World Break Statement</title>
+    <script>
+        function showdata() {
+            alert("Show data");
+            var data = document.getElementById("name").value;
+            alert("data--->" + data);
+            for (var i = 0; i < data; i++) {
+                if (i === 6) {
+                    continue;
+
+                }
+
+                document.write("i----->" + i);
+                document.write("<br>");
+            }
+
+        }
+    </script>
+</head>
+
+<body>
+    <h1 id="demo"> Break Staement Checking</h1>
+    <input type="text" placeholder="Enter Your data" id="name">
+    <button type="button" onclick="showdata()">Click here</button>
+
+
+
+
+
+</body>
+
+
+</html>
